@@ -1,0 +1,28 @@
+1) tradingview.com
+
+18.155.202.74	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+18.155.202.8	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+18.155.202.56	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+18.155.202.98	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+
+2) github.com 
+
+140.82.116.4	IPv4	Hosted by GitHub, Inc. GitHub, Inc.	United States of America
+
+3) avito.ru
+
+176.114.122.24	IPv4	Hosted by KEH eCommerce LLC KEH eCommerce LLC	Russian Federation
+176.114.120.24	IPv4	Hosted by KEH eCommerce LLC KEH eCommerce LLC	Russian Federation
+176.114.124.24	IPv4	Hosted by KEH eCommerce LLC KEH eCommerce LLC	Russian Federation
+
+4) telegram.org
+
+149.154.167.99	IPv4	Hosted by Telegram Messenger Inc Telegram Messenger Inc	Netherlands
+2001:67c:4e8:f004::9	IPv6	Hosted by Telegram Messenger Inc Telegram Messenger Inc	Netherlands
+
+5) forexfactory.com
+
+104.18.7.7	IPv4	Hosted by Cloudflare, Inc. Cloudflare, Inc.	United States of America
+104.18.6.7	IPv4	Hosted by Cloudflare, Inc. Cloudflare, Inc.	United States of America
+2606:4700::6812:607	IPv6	Hosted by Cloudflare, Inc. Cloudflare, Inc.	United States of America
+2606:4700::6812:707	IPv6	Hosted by Cloudflare, Inc. Cloudflare, Inc.	United States of America

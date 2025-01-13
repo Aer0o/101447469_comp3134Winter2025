@@ -1,0 +1,71 @@
+ 1) 
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap facebook.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:38 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0011s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.17 seconds
+
+
+
+
+2)
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 555 facebook.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:45 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0014s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+
+PORT    STATE    SERVICE
+555/tcp filtered dsf
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+
+
+3)
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 50-60 facebook.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:46 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.00092s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+
+PORT   STATE    SERVICE
+50/tcp filtered re-mail-ck
+51/tcp filtered la-maint
+52/tcp filtered xns-time
+53/tcp filtered domain
+54/tcp filtered xns-ch
+55/tcp filtered isi-gl
+56/tcp filtered xns-auth
+57/tcp filtered priv-term
+58/tcp filtered xns-mail
+59/tcp filtered priv-file
+60/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 1.45 seconds
+
+4)
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F georgebrown.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:47 UTC
+Nmap scan report for georgebrown.com (208.91.197.27)
+Host is up (0.034s latency).
+Not shown: 95 closed ports
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+25/tcp  filtered smtp
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+
+Nmap done: 1 IP address (1 host up) scanned in 8.33 seconds
+
+

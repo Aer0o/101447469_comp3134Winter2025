@@ -1,0 +1,158 @@
+1) facebook.com 
+
+Domain Information
+
+Name
+FACEBOOK.COM
+Registry Domain ID
+2320948_DOMAIN_COM-VRSN
+Registered On
+1997-03-29T05:00:00Z
+Expires On
+2033-03-30T04:00:00Z
+Updated On
+2024-04-24T19:06:12Z
+Domain Status
+clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+
+serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+
+serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+
+serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+
+Name Servers
+A.NS.FACEBOOK.COM
+
+B.NS.FACEBOOK.COM
+
+C.NS.FACEBOOK.COM
+
+D.NS.FACEBOOK.COM
+
+
+2) instagram.com
+
+Domain Information
+
+Name
+INSTAGRAM.COM
+Registry Domain ID
+121748357_DOMAIN_COM-VRSN
+Registered On
+2004-06-04T13:37:18Z
+Expires On
+2033-06-04T13:37:18Z
+Updated On
+2024-06-26T19:15:25Z
+Domain Status
+clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+
+serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+
+serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+
+serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+
+Name Servers
+A.NS.INSTAGRAM.COM
+
+B.NS.INSTAGRAM.COM
+
+C.NS.INSTAGRAM.COM
+
+D.NS.INSTAGRAM.COM
+
+3) kijiji.com
+
+Domain Information
+
+Name
+KIJIJI.COM
+Registry Domain ID
+19917601_DOMAIN_COM-VRSN
+Registered On
+2000-02-15T21:34:15Z
+Expires On
+2025-02-15T21:34:14Z
+Updated On
+2024-01-14T10:12:03Z
+Domain Status
+clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+
+Name Servers
+NS-CLOUD-E1.GOOGLEDOMAINS.COM
+
+NS-CLOUD-E2.GOOGLEDOMAINS.COM
+
+NS-CLOUD-E3.GOOGLEDOMAINS.COM
+
+NS-CLOUD-E4.GOOGLEDOMAINS.COM
+
+4) youtube.com 
+
+Name
+YOUTUBE.COM
+Registry Domain ID
+142504053_DOMAIN_COM-VRSN
+Registered On
+2005-02-15T05:13:12Z
+Expires On
+2025-02-15T05:13:12Z
+Updated On
+2024-01-14T09:59:57Z
+Domain Status
+clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+
+serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+
+serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+
+serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+
+Name Servers
+NS1.GOOGLE.COM
+
+NS2.GOOGLE.COM
+
+NS3.GOOGLE.COM
+
+NS4.GOOGLE.COM
+
+5) georgebrown.com
+
+Domain Information
+
+Name
+GEORGEBROWN.COM
+Registry Domain ID
+5269176_DOMAIN_COM-VRSN
+Registered On
+1998-01-11T05:00:00Z
+Expires On
+2026-01-10T05:00:00Z
+Updated On
+2020-11-28T22:22:03Z
+Domain Status
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+Name Servers
+NS41.WORLDNIC.COM
+
+NS42.WORLDNIC.COM

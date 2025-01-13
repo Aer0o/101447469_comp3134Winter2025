@@ -1,0 +1,12 @@
+C:\Users\olegc>ping 178.128.236.45
+
+Pinging 178.128.236.45 with 32 bytes of data:
+Reply from 178.128.236.45: bytes=32 time=26ms TTL=55
+Reply from 178.128.236.45: bytes=32 time=16ms TTL=55
+Reply from 178.128.236.45: bytes=32 time=16ms TTL=55
+Reply from 178.128.236.45: bytes=32 time=14ms TTL=55
+
+Ping statistics for 178.128.236.45:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 14ms, Maximum = 26ms, Average = 18ms
