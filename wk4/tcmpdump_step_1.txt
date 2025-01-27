@@ -1,0 +1,79 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:07:50.169045 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 3587120011:3587120119, ack 704758861, win 501, length 108
+20:07:50.169098 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 108:144, ack 1, win 501, length 36
+20:07:50.169130 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 144:196, ack 1, win 501, length 52
+20:07:50.169154 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 196:264, ack 1, win 501, length 68
+20:07:50.169185 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 264:332, ack 1, win 501, length 68
+20:07:50.169210 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 332:368, ack 1, win 501, length 36
+20:07:50.182130 IP pool-99-228-153-224.cpe.net.cable.rogers.com.50332 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 508, length 0
+20:07:50.268159 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.33713 > 67.207.67.3.domain: 36999+ [1au] PTR? 224.153.228.99.in-addr.arpa. (56)
+20:07:50.268294 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.58925 > 67.207.67.3.domain: 21871+ [1au] PTR? 224.153.228.99.in-addr.arpa. (56)
+20:07:50.274223 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.33713: 36999 1/0/1 PTR pool-99-228-153-224.cpe.net.cable.rogers.com. (114)
+20:07:50.274345 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.58925: 21871 1/0/1 PTR pool-99-228-153-224.cpe.net.cable.rogers.com. (114)
+20:07:50.275053 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.35774 > 67.207.67.3.domain: 27089+ [1au] PTR? 45.236.128.178.in-addr.arpa. (56)
+20:07:50.294094 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35774: 27089 NXDomain 0/1/1 (123)
+20:07:50.294324 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.35774 > 67.207.67.3.domain: 27089+ PTR? 45.236.128.178.in-addr.arpa. (45)
+20:07:50.294915 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35774: 27089 NXDomain 0/1/0 (112)
+20:07:50.295524 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 368:588, ack 1, win 501, length 220
+20:07:50.295581 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 588:624, ack 1, win 501, length 36
+20:07:50.295666 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 624:820, ack 1, win 501, length 196
+20:07:50.295697 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 820:856, ack 1, win 501, length 36
+20:07:50.295737 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 856:1052, ack 1, win 501, length 196
+20:07:50.295765 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 1052:1088, ack 1, win 501, length 36
+20:07:50.295804 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 1088:1284, ack 1, win 501, length 196
+20:07:50.295831 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 1284:1320, ack 1, win 501, length 36
+20:07:50.295883 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 1320:1516, ack 1, win 501, length 196
+20:07:50.295923 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 1516:1552, ack 1, win 501, length 36
+20:07:50.295968 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 1552:1748, ack 1, win 501, length 196
+20:07:50.295998 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 1748:1784, ack 1, win 501, length 36
+20:07:50.296036 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 1784:1964, ack 1, win 501, length 180
+20:07:50.296065 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 1964:2000, ack 1, win 501, length 36
+20:07:50.303437 IP pool-99-228-153-224.cpe.net.cable.rogers.com.50332 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2000, win 513, length 0
+20:07:50.371154 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.49970 > 67.207.67.3.domain: 18063+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+20:07:50.371241 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.51223 > 67.207.67.3.domain: 51171+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+20:07:50.371555 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51223: 51171 NXDomain 0/1/1 (120)
+20:07:50.371555 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.49970: 18063 NXDomain 0/1/1 (120)
+20:07:50.371673 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.51223 > 67.207.67.3.domain: 51171+ PTR? 3.67.207.67.in-addr.arpa. (42)
+20:07:50.371788 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.49970 > 67.207.67.3.domain: 18063+ PTR? 3.67.207.67.in-addr.arpa. (42)
+20:07:50.371970 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51223: 51171 NXDomain 0/1/0 (109)
+20:07:50.372059 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.49970: 18063 NXDomain 0/1/0 (109)
+20:07:51.362900 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.173.19014: Flags [P.], seq 2470746932:2470747012, ack 841298159, win 504, options [nop,nop,TS val 1535403040 ecr 1324117075], length 80
+20:07:51.590530 IP 218.92.0.173.19014 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:97, ack 80, win 263, options [nop,nop,TS val 1324117914 ecr 1535403040], length 96
+20:07:51.590580 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.173.19014: Flags [.], ack 97, win 504, options [nop,nop,TS val 1535403267 ecr 1324117914], length 0
+20:07:53.734733 IP 94.232.47.83.48443 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.44444: Flags [S], seq 3422840554, win 1025, options [mss 1460], length 0
+20:07:54.428304 IP 185.94.111.1.33161 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ldp: Flags [S], seq 4035893767, win 65535, length 0
+20:07:54.717594 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.173.19014: Flags [P.], seq 80:160, ack 97, win 504, options [nop,nop,TS val 1535406394 ecr 1324117914], length 80
+20:07:54.945174 IP 218.92.0.173.19014 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 97:161, ack 160, win 263, options [nop,nop,TS val 1324118753 ecr 1535406394], length 64
+20:07:54.945175 IP 218.92.0.173.19014 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [F.], seq 161, ack 160, win 263, options [nop,nop,TS val 1324118753 ecr 1535406394], length 0
+20:07:54.945225 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.173.19014: Flags [.], ack 161, win 504, options [nop,nop,TS val 1535406622 ecr 1324118753], length 0
+20:07:56.413244 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 2000:4920, ack 1, win 501, length 2920
+20:07:56.413362 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 4920:6132, ack 1, win 501, length 1212
+20:07:56.413489 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 6132:6464, ack 1, win 501, length 332
+20:07:56.413796 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.46550 > 67.207.67.3.domain: 7648+ [1au] PTR? 173.0.92.218.in-addr.arpa. (54)
+20:07:56.414057 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.58688 > 67.207.67.3.domain: 22643+ [1au] PTR? 173.0.92.218.in-addr.arpa. (54)
+20:07:56.414805 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.58688: 22643 NXDomain 0/1/1 (103)
+20:07:56.415149 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.58688 > 67.207.67.3.domain: 22643+ PTR? 173.0.92.218.in-addr.arpa. (43)
+20:07:56.415618 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.58688: 22643 NXDomain 0/1/0 (92)
+20:07:56.428814 IP pool-99-228-153-224.cpe.net.cable.rogers.com.50332 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6464, win 513, length 0
+20:07:56.657555 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.46550: 7648 NXDomain 0/1/1 (103)
+20:07:56.657889 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.46550 > 67.207.67.3.domain: 7648+ PTR? 173.0.92.218.in-addr.arpa. (43)
+20:07:56.658428 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.46550: 7648 NXDomain 0/1/0 (92)
+20:08:02.555424 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 6464:7052, ack 1, win 501, length 588
+20:08:02.555707 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.37785 > 67.207.67.3.domain: 33672+ [1au] PTR? 83.47.232.94.in-addr.arpa. (54)
+20:08:02.555816 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.41732 > 67.207.67.3.domain: 19565+ [1au] PTR? 83.47.232.94.in-addr.arpa. (54)
+20:08:02.555991 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.37785: 33672 NXDomain 0/1/1 (114)
+20:08:02.556071 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.41732: 19565 NXDomain 0/1/1 (114)
+20:08:02.556183 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.37785 > 67.207.67.3.domain: 33672+ PTR? 83.47.232.94.in-addr.arpa. (43)
+20:08:02.556239 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.41732 > 67.207.67.3.domain: 19565+ PTR? 83.47.232.94.in-addr.arpa. (43)
+20:08:02.556440 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.37785: 33672 NXDomain 0/1/0 (103)
+20:08:02.556440 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.41732: 19565 NXDomain 0/1/0 (103)
+20:08:02.623719 IP pool-99-228-153-224.cpe.net.cable.rogers.com.50332 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7052, win 510, length 0
+20:08:08.699386 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 7052:7232, ack 1, win 501, length 180
+20:08:08.699628 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.50977 > 67.207.67.3.domain: 60902+ [1au] PTR? 1.111.94.185.in-addr.arpa. (54)
+20:08:08.699720 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.51726 > 67.207.67.3.domain: 1554+ [1au] PTR? 1.111.94.185.in-addr.arpa. (54)
+20:08:08.754099 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.50977: 60902 NXDomain 0/1/1 (108)
+20:08:08.754461 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.50977 > 67.207.67.3.domain: 60902+ PTR? 1.111.94.185.in-addr.arpa. (43)
+20:08:08.754611 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51726: 1554 NXDomain 0/1/1 (108)
+20:08:08.754680 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.51726 > 67.207.67.3.domain: 1554+ PTR? 1.111.94.185.in-addr.arpa. (43)

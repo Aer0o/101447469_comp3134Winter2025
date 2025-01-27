@@ -1,0 +1,65 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:11:55.802703 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 3648908931:3648909039, ack 704798169, win 501, length 108
+        0x0000:  fe00 0000 0101 ce45 07a3 e377 0800 4510  .......E...w..E.
+        0x0010:  0094 f51a 4000 4006 a8c6 b280 ec2d 63e4  ....@.@......-c.
+        0x0020:  99e0 0016 c49c d97d ee83 2a02 5dd9 5018  .......}..*.].P.
+        0x0030:  01f5 9cf9 0000 f312 667d d9c9 01c9 b5fd  ........f}......
+        0x0040:  08af 96e7 9372 3138 8c14 9bb6 d550 b311  .....r18.....P..
+        0x0050:  0259 31db 877d 045a 69d9 7ae1 db21 813d  .Y1..}.Zi.z..!.=
+        0x0060:  fa36 01e3 84f5 4dde e7a4 a123 c7de a3ff  .6....M....#....
+        0x0070:  7509 549d 581b 185b 8e7e c8cb 098d b7b1  u.T.X..[.~......
+        0x0080:  eb32 bfda 2527 a083 a517 8fb5 5dc6 34cf  .2..%'......].4.
+        0x0090:  9516 05b4 9da5 9d44 a0cd 81e4 4f2d a97b  .......D....O-.{
+        0x00a0:  ef90                                     ..
+20:11:55.802773 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 108:144, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 ce45 07a3 e377 0800 4510  .......E...w..E.
+        0x0010:  004c f51b 4000 4006 a90d b280 ec2d 63e4  .L..@.@......-c.
+        0x0020:  99e0 0016 c49c d97d eeef 2a02 5dd9 5018  .......}..*.].P.
+        0x0030:  01f5 9cb1 0000 22f5 8c67 a696 bad8 d055  ......"..g.....U
+        0x0040:  d971 d95d b00f 2395 8bb5 9605 5114 44db  .q.]..#.....Q.D.
+        0x0050:  cac4 6c86 d833 91fa d783                 ..l..3....
+20:11:55.802824 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 144:196, ack 1, win 501, length 52
+        0x0000:  fe00 0000 0101 ce45 07a3 e377 0800 4510  .......E...w..E.
+        0x0010:  005c f51c 4000 4006 a8fc b280 ec2d 63e4  .\..@.@......-c.
+        0x0020:  99e0 0016 c49c d97d ef13 2a02 5dd9 5018  .......}..*.].P.
+        0x0030:  01f5 9cc1 0000 aa1a 5f96 ae2c 884f 50ea  ........_..,.OP.
+        0x0040:  7b8d 551f 764d 952b d0df 5cf9 5bfa f806  {.U.vM.+..\.[...
+        0x0050:  ba4a ff26 3561 56a3 87e1 cf96 e336 2028  .J.&5aV......6.(
+        0x0060:  650f bd95 2a01 a95b a715                 e...*..[..
+20:11:55.802868 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 196:264, ack 1, win 501, length 68
+        0x0000:  fe00 0000 0101 ce45 07a3 e377 0800 4510  .......E...w..E.
+        0x0010:  006c f51d 4000 4006 a8eb b280 ec2d 63e4  .l..@.@......-c.
+        0x0020:  99e0 0016 c49c d97d ef47 2a02 5dd9 5018  .......}.G*.].P.
+        0x0030:  01f5 9cd1 0000 a7c6 ecfa ead2 2312 65c1  ............#.e.
+        0x0040:  306f a4fc fb75 4120 ddfc 05f9 7a8d d114  0o...uA.....z...
+        0x0050:  06f5 5007 92c4 5d90 cdf1 bc15 8ad2 46df  ..P...].......F.
+        0x0060:  3187 436c 76a5 45b2 22f8 06e9 5705 46f0  1.Clv.E."...W.F.
+        0x0070:  caa9 853e 4c84 882c f79a                 ...>L..,..
+20:11:55.802910 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 264:332, ack 1, win 501, length 68
+        0x0000:  fe00 0000 0101 ce45 07a3 e377 0800 4510  .......E...w..E.
+        0x0010:  006c f51e 4000 4006 a8ea b280 ec2d 63e4  .l..@.@......-c.
+        0x0020:  99e0 0016 c49c d97d ef8b 2a02 5dd9 5018  .......}..*.].P.
+        0x0030:  01f5 9cd1 0000 2736 5b85 def5 469e 24d9  ......'6[...F.$.
+        0x0040:  a57f 3cf2 2400 7c98 e60e 0d35 9c72 c731  ..<.$.|....5.r.1
+        0x0050:  7e40 12f1 824e 4873 4578 2bc4 30ca be62  ~@...NHsEx+.0..b
+        0x0060:  b816 1c6e 042d 2fff 7003 bec7 380f dc4e  ...n.-/.p...8..N
+        0x0070:  6a18 ba80 fb47 2d7a 5203                 j....G-zR.
+20:11:55.802948 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-228-153-224.cpe.net.cable.rogers.com.50332: Flags [P.], seq 332:368, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 ce45 07a3 e377 0800 4510  .......E...w..E.
+        0x0010:  004c f51f 4000 4006 a909 b280 ec2d 63e4  .L..@.@......-c.
+        0x0020:  99e0 0016 c49c d97d efcf 2a02 5dd9 5018  .......}..*.].P.
+        0x0030:  01f5 9cb1 0000 c90e eedd 21f6 30ea 4dac  ..........!.0.M.
+        0x0040:  b6c2 1816 c41b 08cd 926f 53c5 17f7 6868  .........oS...hh
+        0x0050:  d3b0 311e 5c7c cc3a 5147                 ..1.\|.:QG
+20:11:55.819152 IP pool-99-228-153-224.cpe.net.cable.rogers.com.50332 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 4104, length 0
+        0x0000:  ce45 07a3 e377 fe00 0000 0101 0800 4500  .E...w........E.
+        0x0010:  0028 5776 4000 7706 0fe7 63e4 99e0 b280  .(Wv@.w...c.....
+        0x0020:  ec2d c49c 0016 2a02 5dd9 d97d eff3 5010  .-....*.]..}..P.
+        0x0030:  1008 ed59 0000 0000 0000 0000            ...Y........
+^C
+7 packets captured
+46 packets received by filter
+0 packets dropped by kernel
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
